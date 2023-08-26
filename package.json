@@ -16,6 +16,6 @@
   },
   "scripts": {
     "build": "node --experimental-modules build.mjs",
-    "watch": "node watch.js"
+    "watch": "yarn build && node watch.js"
   }
 }
